@@ -1,0 +1,69 @@
+*{
+    padding: 0px;
+    margin:0px;
+}
+body{
+    width:100%;
+    height:100%;
+}
+img{
+    width:100px;
+    height:100px;
+}
+.navbar{
+  z-index:34;
+}
+div.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 360px; /* Set the width of the sidebar */
+    position: absolute; 
+    z-index: 1; /* Stay on top */
+    top: 0px; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+    text-align: center;
+  }
+  
+  div.sidenav div h2{
+    padding:30px;
+    
+  }
+  div.sidenav div img{
+    width:200px;
+    height:200px;
+    border-radius: 100%;
+    margin:50px;
+  }
+  div.sidenav div h5{
+    padding:10px;
+  }
+  /* Style page content */
+  .main {
+    margin-left: 360px; 
+    margin-top:200px;
+    padding: 100px 200px;
+  }
+  .box{
+      text-align: center;
+      padding:20px;
+  }
+  .box h3{
+      margin:15px;
+  }
+  div.view-resume{
+      
+      width:100%;
+      position: absolute;
+      bottom:60px;
+    
+  }
+  div.view-resume.btn{
+    text-align: center;
+  }
+
+  .card{
+    position:relative;
+    right:200px;
+  }

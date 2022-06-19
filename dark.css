@@ -1,0 +1,141 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Estonia&display=swap');
+
+@media all {
+    @page {
+        margin: 0;
+        size: A4;
+      }
+      * {
+        -webkit-print-color-adjust: exact;
+      }
+}
+
+/* Element styling  */
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #524f43;
+    color:white;
+}
+
+h1{
+    font:900;
+}
+
+form{
+    margin: auto;
+    padding: 10px;
+}
+input,button,select{
+    width:100%;
+    margin-top:10px;
+    border-radius:5px;
+}
+input{
+    padding:5px;
+    outline:#204051
+}
+button{
+    background-color: #204051;
+    position: relative;
+    bottom:20px;
+}
+div.container{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+textarea{
+    height: 100px;
+    width:100%;
+    padding:5px;
+    outline:#204051
+}
+
+
+/* class styling  */
+
+
+.bulb{
+    font-size:30px;
+    color:rgb(255, 255, 255);
+    margin:30px;
+    cursor: pointer;
+    position: relative;
+    bottom:30px;
+    left:-30px;
+}
+.bulb-box{
+    border-radius: 100%;
+    width:30px;
+    position:fixed;
+    height:30px;
+    margin:30px;
+    margin-top:60px;
+    margin-left:15px;
+    cursor: pointer;
+    background-color:rgb(0, 0, 0);
+}
+.bulb-box:hover{
+    background-color: rgb(255, 255, 255);
+}
+.bulb:hover{
+    color: rgb(0, 0, 0);
+}
+
+/* heading  */
+.resume-heading{
+    font-size:3.0rem;
+    text-transform: uppercase;
+}
+
+.container-fluid{
+    padding:10px;
+}
+.heading-container{
+    margin-top:100px;
+    margin-bottom:100px;
+}
+
+/* form  */
+.form-container{
+    max-width:100%;
+    width:80%;
+    padding:30px;
+    border:1px solid white;
+    margin-top:50px;
+}
+.contact-container,.colors-container,.skills-container,.hobbies-container,.education-container,.experience-container,.profile-container,.about-me-container{
+    margin-top:30px;
+    border:1px solid white;
+}
+
+.content{
+    padding: 10px;
+}
+.contact-content-container,.hobbies-content-container{
+    margin-top:15px;
+}
+.heading{
+    font-weight: 300;
+}
+
+/* Button  */
+.btn-outline-success{
+    color:white;
+    margin:30px 0px;
+}
+.submit-button{
+    margin-top:20px;
+}
+#primary-color,#secondary-color,#complementary-color{
+    width:60px;
+    height:30px;
+    border:2px solid rgb(8, 0, 7);
+    padding:0;
+}
+.colors-container{
+    margin-bottom:10px;
+}

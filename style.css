@@ -1,0 +1,180 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+@media all {
+    @page {
+        margin: 0px;
+        size: A4;
+      }
+      * {
+        -webkit-print-color-adjust: exact;
+      }
+       
+
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f0f0c2;
+    color:white;
+}
+
+.title{
+    color: black;
+    /* background-color: #FFBD9B; */
+}
+
+/* main container  */
+
+.form-container{
+    max-width:100%;
+    width:100%;
+    padding:30px;
+    border:1px solid black;
+}
+
+.resume-heading{
+    text-transform: capitalize;
+}
+.heading-container{
+    
+    margin:10px auto;
+}
+.form-container{
+    padding:10px;
+    border:1px solid black;
+    margin-top:50px;
+}
+/* Left side  */
+
+.col-8.zone-2{
+    color:white;
+    /* background-color: #0A1D37;  */
+}
+
+.heading{
+    display: flex;
+    flex-direction: row;
+    margin:20px auto;
+    justify-content:space-between;
+}
+
+.profile-col{
+    margin:5px 0px;
+    width:50%;
+    padding:5px;
+}
+
+
+.skills{
+    text-align:center;
+}
+
+.zone-1 .profile {
+    display: inline-flex;
+    margin-bottom: 5px;
+    margin-left: -15px;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    background-position: center top;
+    background-size: 200%;
+    border: 4px solid #2c2b29;
+  }
+
+   .zone-1 .personal-box {
+    margin-top: 55px;
+  }
+   .zone-1 .personal-box > *:not(.title) {
+    margin: 25px 0px;
+    grid-template-columns: 0.55fr 1fr;
+    display: grid;
+  }
+.zone-1 .personal-box .progress {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #313131;
+    border-radius: 50%;
+    margin-left: 4px;
+  }
+
+  .fa-star{
+    font-size: .9rem;
+    background: transparent;
+    color: yellow;
+  }
+  .progress{
+      background: transparent;
+      display: inline;
+  }
+  .zone-1 .personal-box .progress .fa-star.active {
+    color: #9db858;
+    margin-right: 5px;
+    float: right;
+  }
+  .skill-1 p{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:40%;
+    margin:10px 10px;
+    text-align:left;
+  }
+
+
+/* Right side  */
+
+.col-4.zone-1{
+    color:black;
+    padding:1px;
+    /* background-color: #FFEEDB; */
+}
+
+.toCenter{
+    text-align:center;
+}
+
+.circle.profile{
+    width:200px;
+    height:200px;
+    border-radius:100%;
+}
+
+.group-1{
+    padding:10px;
+    margin:10px auto;
+    height:fit-content;
+    text-align: center;
+}
+.desc{
+    font-size: .9rem;
+    height:fit-content;
+}
+
+.hobbies-box{
+    padding:10px;
+    text-align:center;
+}
+
+.contact-box
+{
+    padding:10px;
+    margin:10px;
+    text-align: center;
+}
+
+.call i,.email i{
+    margin:10px 5px; 
+} 
+
+/* @media print {
+    body *{
+        visibility: hidden;
+    }
+
+    .print-area *{
+    visibility: visible;
+    }
+} */
